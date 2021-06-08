@@ -1,0 +1,29 @@
+@source is in crackthis
+@- to go back a folder
+@~ to go to home folder
+@ cd src, cd john, cd run
+@run---->THIS IS WHERE THE MAGIC HAPPENS
+@./john file -w=wordlist --rules=all
+@./john --show file
+@pdftk src.pdf output dest.pdf user_pw password
+@./pdf2john.pl src.pdf > dest.hash
+@bash decrypt-pass.sh
+
+#edit john.conf
+$WordlistRules = all
+OR
+$WordlistRules = jumbo
+$if no rules then --rules:none
+
+TODO:
+//readme and guide for usage
+/*
+//Multiple passwords
+//setup my desktop as server to ssh into to show
+multiple passwords
+*/
+
+
+
+
+compare password crack time for with my permutation and without for different password lengths

@@ -1,0 +1,6 @@
+click and drag folder to terminal. Cd to the location
+In run
+Ptc is where shits located
+./pdf2john.pl src > dest
+./John dest
+./John —show dest
